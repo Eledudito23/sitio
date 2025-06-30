@@ -1,0 +1,509 @@
+body {
+    background-color: aliceblue;
+}
+
+.encabezado {
+    width: 99%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.logo {
+    width: 120px;
+    height: 105px;
+    border: solid 0.3px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.logo>img {
+    width: 80px;
+    height: 80px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: -90px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.nave {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.l1 {
+    width: 10%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    margin-top: 4px;
+    float: left;
+    margin-right: 5px;
+}
+
+aside.l1 {
+    margin-bottom: 15px;
+    /* Ajusta el valor según tus preferencias */
+    width: 10%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 3px;
+    float: left;
+    margin-right: 5px;
+}
+
+aside.l1 h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+aside.l1 p {
+    color: #000000;
+}
+
+aside.l1 ul {
+    margin-top: 20px;
+}
+
+aside.l1 li {
+    margin-bottom: 8px;
+}
+
+aside.l1 a {
+    color: #d31313;
+    text-decoration: none;
+}
+
+aside.l1 a:hover {
+    text-decoration: underline;
+}
+
+aside.l1 h3 {
+    color: rgb(255, 0, 183);
+    /* Cambia el color según tus preferencias */
+}
+
+.fit-cat-intro {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.fit-cat-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fit-cat-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.seccion {
+    width: 89.5%;
+    height: 800px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titu1 {
+    font-size: 28px;
+    color: #333;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+li {
+    margin: 10px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pie {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.pie {
+    background-color: #f2f2f2;
+    padding: 2px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.datos-pie {
+    margin: 10px;
+}
+
+.datos-pie p {
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    line-height: 1.5;
+}
+
+.datos-pie p:last-child {
+    margin-bottom: 0;
+}
+
+.pie a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.pie a:hover {
+    color: #e90000;
+}
+
+
+/* Navegación */
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-right: 8px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #e90000;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #060606;
+}
+
+body {
+    background-color: rgb(17, 90, 90);
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    margin: 5px auto;
+    background-color: rgb(197, 40, 40);
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav>ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+nav>ul li {
+    display: table-cell;
+}
+
+nav>ul>li a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav>ul>li a:hover {
+    background-color: rgb(163, 167, 164);
+}
+
+nav>ul>li>a span {
+    display: block;
+    background-color: rgb(128, 126, 131);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -60px;
+    transition: all 0.3s ease;
+}
+
+nav>ul>li>a:hover>span {
+    margin-top: 5px;
+}
+
+nav>ul>li>a span .con {
+    display: block;
+    line-height: 40px;
+    font-size: 35px;
+}
+
+.c1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.c2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.c3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.c4 {
+    background-color: rgb(173, 173, 173);
+}
+
+.c5 {
+    background-color: rgb(173, 173, 173);
+}
+
+.titu1 {
+    text-align: center;
+    background-color: rgb(101, 101, 101);
+    text-decoration: wavy;
+    font-size: 40px;
+    font-family: 'sketch block', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+
+.formulario {
+    border: solid 0px;
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(244, 245, 246);
+    box-shadow: 0 0 2px 1px rgba(243, 8, 8, 0.9);
+    padding: 20px;
+    position: relative;
+}
+
+.formulario-titulo {
+    text-align: center;
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.formulario-input,
+.formulario-label,
+.formulario-submit {
+    width: 92%;
+    font-size: 1.3em;
+    display: block;
+}
+
+.formulario-input {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.formulario-input:focus {
+    outline: 1px solid blue;
+}
+
+.formulario-input:focus+.formulario-label {
+    margin-top: -135px;
+    color: greenyellow;
+    transition: 0.2s linear;
+}
+
+.formulario-label {
+    margin-left: 25px;
+    position: absolute;
+    margin-top: -85px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.formulario-submit {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.formulario-submit:hover {
+    background-color: blue;
+}
+
+.content-all {
+    width: 200px;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    perspective: 400px;
+}
+
+.content-galeria {
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotar 30s infinite linear;
+}
+
+.content-galeria:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.content-galeria figure {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    /* Corrección de sintaxis del box-shadow */
+    box-shadow: 1px 1px 1px rgba(65, 0, 64, 0.5);
+    /* Valor corregido y más legible */
+}
+
+.content-galeria figure:hover {
+    box-shadow: 1px 1px 1px 1px goldenrod;
+    transition: all 400ms;
+}
+
+.content-galeria figure img:hover {
+    transform: scale(1.3);
+    transition: all 400ms;
+}
+
+.content-galeria figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Añadido para asegurar que la imagen cubra el espacio */
+}
+
+
+/* Ajuste de rotación para 5 imágenes */
+
+.content-galeria figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-galeria figure:nth-child(2) {
+    transform: rotateY(72deg) translateZ(300px);
+    /* 360 / 5 = 72 */
+}
+
+.content-galeria figure:nth-child(3) {
+    transform: rotateY(144deg) translateZ(300px);
+    /* 72 * 2 = 144 */
+}
+
+.content-galeria figure:nth-child(4) {
+    transform: rotateY(216deg) translateZ(300px);
+    /* 72 * 3 = 216 */
+}
+
+.content-galeria figure:nth-child(5) {
+    transform: rotateY(288deg) translateZ(300px);
+    /* 72 * 4 = 288 */
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
